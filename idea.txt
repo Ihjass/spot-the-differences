@@ -1,0 +1,7 @@
+we know to spot the difference between two cartoon images - mostly, we've done this as an activity in childhood. 
+same applies here. 
+But, here we have the images to be the book cover images - one in digital print and the other in photographic form. 
+this algorithm will be useful for the book sellers to see if the book has been copyrighted elsewhere.
+.
+.
+should be filling this regularly.
