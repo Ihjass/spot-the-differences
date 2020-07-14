@@ -9,7 +9,7 @@ I = io.imread('dataset/book-covers/Art-Photography/0000002.jpg')/255.0
 
 # making the foreground synthetic
 front = I.copy()
-front[front>=0.9]=0
+front[front>=0.7]=0
 plt.axis('off')
 plt.imshow(front)
 plt.show()
