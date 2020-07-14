@@ -10,6 +10,7 @@ with open('dataset/main_dataset.csv', newline='') as csvfile:
         full_row = row['name'],row['category'],row['img_paths']
         print(full_row)
         totalrow_list.append(full_row)
+        
 with open('ObjDetTrain.csv', 'w', newline='\n') as file:
     csv_writer = csv.writer(file)
     csv_writer.writerow(["fileName", "Category", "Paths","Class"])
