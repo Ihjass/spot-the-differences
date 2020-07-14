@@ -29,3 +29,4 @@ if __name__ == '__main__':
     print(f'There are {nRow} rows and {nCol} columns')
     df1.head(5)
     print(getSplitData())
+    print('data split!')
