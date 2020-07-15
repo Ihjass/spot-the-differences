@@ -21,8 +21,7 @@ if __name__ == '__main__':
     nRowsRead = 1000
     df1 = pd.read_csv('ObjDetTrain.csv', delimiter=',', nrows=nRowsRead)
     df1.dataframeName = 'ObjDetTrain.csv'
-    nRow, nCol = df1.shape
-    print(f'There are {nRow} rows and {nCol} columns')
+    num_rows, num_columns = df1.shape
     df1.head(5)
     print(getSplitData())
     print('data split!')
