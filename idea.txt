@@ -3,5 +3,3 @@ same applies here.
 But, here we have the images to be the book cover images - one in digital print and the other in photographic form. 
 this algorithm will be useful for the book sellers to see if the book has been copyrighted elsewhere.
 .
-.
-should be filling this regularly.
